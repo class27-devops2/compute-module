@@ -54,10 +54,10 @@ variable "ebs_volume_size" {
   default     = 10
 }
 
-#variable "ebs_volume_type" {
- # description = "Type of the EBS volume (e.g., gp2, io1)"
- # type        = string
- # default     = "gp2"
+variable "ebs_volume_type" {
+  description = "Type of the EBS volume (e.g., gp2, io1)"
+  type        = string
+  default     = "gp2"
 }
 
 #variable "tags" {
